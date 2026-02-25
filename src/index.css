@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617 60%);
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  backdrop-filter: blur(12px);
+  background: rgba(17, 24, 39, 0.75);
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  width: 420px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  letter-spacing: 0.5px;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  background: linear-gradient(135deg, #f97316, #fb923c);
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(249,115,22,0.7);
+}
+
+.subtitle {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 25px;
+}
+
+.wallet-info {
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.big-balance {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.apy {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #38bdf8;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+  background: linear-gradient(135deg, #f97316, #fb923c);
+  color: white;
+  transition: 0.2s ease;
+  box-shadow: 0 10px 30px rgba(249,115,22,0.4);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px rgba(249,115,22,0.6);
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: none;
+}
+
+.secondary:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.8;
+}
